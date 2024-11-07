@@ -1,5 +1,5 @@
 img{
-    height: 10rem;
+    height: 5rem;
 }
 
 button{
@@ -25,4 +25,9 @@ button{
 
 .no-active-border{
     border: 0.2rem solid red;
+}
+
+input[type="text"]{
+    display: block;
+    margin-top: 1rem;
 }

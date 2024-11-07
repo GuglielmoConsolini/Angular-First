@@ -20,3 +20,19 @@
 <!-- style binding -->
 
 <button [style.background]="isActive? 'red' : 'green'" >Click</button>
+
+<!-- event binding -->
+
+<button (click)="clickButton()">Click me </button>
+
+<input type="text" (keyup)="keyEnter($event)">
+
+<input type="text" (keyup.enter)="keyFiltering(user)" #user>
+
+<!-- two way data binding -->
+
+<input type="text" [value]="userName" #username (keyup.enter)="changeUsername(username)" >
+
+<input type="text" [(ngModel)]="userName">
+
+<h3>{{ userName }}</h3>
