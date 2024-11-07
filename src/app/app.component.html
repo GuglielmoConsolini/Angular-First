@@ -1,3 +1,8 @@
+<img [src]="imageURL" alt="">
 <h1>{{title}}</h1>
 <app-navbar></app-navbar>
 <app-header></app-header>
+
+<button disabled="{{isDisabled}}">Disable using string interpolation </button>
+
+<button [disabled]="isDisabled">Disable using data binding</button>
