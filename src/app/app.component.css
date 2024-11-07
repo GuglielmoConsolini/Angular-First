@@ -1,3 +1,28 @@
 img{
     height: 10rem;
 }
+
+button{
+    display: block;
+    margin-top: 2rem;
+}
+
+.active{
+    background-color: green;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.no-active{
+    background-color: lightblue;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.active-border{
+    border: 0.2rem solid black;
+}
+
+.no-active-border{
+    border: 0.2rem solid red;
+}

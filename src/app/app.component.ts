@@ -11,7 +11,9 @@ import { HeaderComponent } from "./header/header.component";
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title:string = 'Angular-FirstProject';
-  imageURL:string = 'https://www.html.it/app/uploads/2024/05/angular.png'
-  isDisabled:boolean = true;
+  title: string = 'Angular-FirstProject';
+  imageURL: string = 'https://www.html.it/app/uploads/2024/05/angular.png'
+  isDisabled: boolean = true;
+  isActive: boolean = true;
+
 }

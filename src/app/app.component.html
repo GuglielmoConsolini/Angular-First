@@ -6,3 +6,17 @@
 <button disabled="{{isDisabled}}">Disable using string interpolation </button>
 
 <button [disabled]="isDisabled">Disable using data binding</button>
+
+
+<!-- class binding -->
+
+<button 
+[class.active]="isActive" 
+[class.no-active]="!isActive"
+[class.active-border]="isActive"
+[class.no-active-border]="!isActive"
+>Click me</button>
+
+<!-- style binding -->
+
+<button [style.background]="isActive? 'red' : 'green'" >Click</button>
